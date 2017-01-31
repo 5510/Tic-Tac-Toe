@@ -62,7 +62,7 @@ def tic_tac_toe():
                print("Player 1 Wins!\n")
                print("Congratulations!\n")
                p1won()
-               print(p1score)
+               print(´Player 1 won:´, p1score)
                if input("Play Again? (y/n)\n") == "y":
                    print()
                    tic_tac_toe()
@@ -72,7 +72,7 @@ def tic_tac_toe():
                print("Player 2 Wins!\n")
                print("Congratulations!\n")
                p2won()
-               print(p2score)
+               print(´Player 2 won:´, p2score)
                if input("Play Again? (y/n)\n") == "y":
                    print()
                    tic_tac_toe()
